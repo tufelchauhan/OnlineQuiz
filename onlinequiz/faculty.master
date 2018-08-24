@@ -1,0 +1,76 @@
+﻿<%@ Master Language="VB" CodeFile="faculty.master.vb" Inherits="faculty" %>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ONLINE QUIZ</title>
+<link href="TMPH00053/css/style.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Tienne' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="menu-wrapper">
+  <div class="menu">
+    <ul>
+      <li><a class="active" href="FProfile.aspx">Profile</a></li>
+      <li><a class="active" href="FQuiz.aspx">Upload Quiz</a></li>
+      <li><a class="active" href="FResult.aspx">Result</a></li>
+      <li><a class="active" href="FHelp.aspx">Help</a></li>
+      <li><a class="active" href="Logout.aspx">Logout</a></li>
+    </ul>
+  </div>
+  <div class="clearing"></div>
+</div>
+<div class="wrapper">
+  <div class="header-wrapper">
+    <div class="logo">
+      <h1>ONLINE<span>QUIZ</span></h1>
+    </div>
+    <div class="right-panel">
+      <div class="leftcontent marRight30">
+
+      </div>
+  </div>
+  <div class="clearing"></div>
+  <div class="panel-wrapper">
+      <table class="style1">
+    <form id="form1" runat="server">
+          <tr>
+              <td>
+                  <asp:ScriptManager ID="ScriptManager1" runat="server">
+                  </asp:ScriptManager>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+              </td>
+          </tr>
+      </table>
+<div class="panel marRight30">
+    </div>
+<div class="footer-wrapper">
+  <div class="footer">
+    <ul>
+   <li><a href="FProfile.aspx">Profile</a></li>
+      <li><a href="FQuiz.aspx">Upload_Quiz</a></li>
+      <li><a href="FResult.aspx">Result</a></li>
+      <li><a href="FHelp.aspx">Help</a></li>
+      <li><a href="Logout.aspx">Logout</a></li>
+      
+      
+    </ul>
+  </div>
+</div>
+</form>
+</body>
+</html>

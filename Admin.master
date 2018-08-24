@@ -1,0 +1,87 @@
+﻿<%@ Master Language="VB" CodeFile="Admin.master.vb" Inherits="Admin" %>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="TMPH00053/css/style.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Tienne' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="menu-wrapper">
+  <div class="menu">
+    <ul>
+      <li><a class="active" href="AProfile.aspx">Profile</a></li>
+      <li><a class="active" href="ACollege.aspx">College</a></li>
+      <li><a class="active" href="ACourse.aspx">Course</a></li>
+      <li><a class="active" href="ASubject.aspx">Subject</a></li>
+      <li><a class="active" href="AFaculty.aspx">Faculty</a></li>
+      <li><a class="active" href="AStudent.aspx">Student</a></li>
+      <li><a class="active" href="AResult.aspx">Result</a></li>
+      <li><a class="active" href="AFeedback.aspx">Feedback</a></li>
+      <li><a class="active" href="Logout.aspx">Logout</a></li>
+    </ul>
+  </div>
+  <div class="clearing"></div>
+</div>
+<div class="wrapper">
+  <div class="header-wrapper">
+    <div class="logo">
+      <h1>ONLINE<span>QUIZ</span></h1>
+
+      <p>&nbsp;</p>
+    </div>
+    <div class="right-panel">
+      <div class="leftcontent marRight30">
+      </div>
+      <div class="search-panel">
+      </div>
+    </div>
+  </div>
+  <div class="clearing"></div>
+  <div class="panel-wrapper">
+      <table class="style1">
+    <form id="form1" runat="server">
+
+          <tr>
+              <td>
+                  <asp:ScriptManager ID="ScriptManager1" runat="server">
+                  </asp:ScriptManager>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+              </td>
+          </tr>
+      </table>
+<div class="panel marRight30">
+    </div>
+<div class="menu-wrapper">
+  <div class="menu">
+    <ul>
+    <li><a></a></li>
+      <li><a class="active" href="AProfile.aspx">Profile</a></li>
+      <li><a class="active" href="ACollege.aspx">College</a></li>
+      <li><a class="active" href="ACourse.aspx">Course</a></li>
+      <li><a class="active" href="ASubject.aspx">Subject</a></li>
+      <li><a class="active" href="AFaculty.aspx">Faculty</a></li>
+      <li><a class="active" href="AStudent.aspx">Student</a></li>
+      <li><a class="active" href="AResult.aspx">Result</a></li>
+     <li><a class="active" href="AFeedback.aspx">Feedback</a></li>
+      <li><a class="active" href="Logout.aspx">Logout</a></li>
+     </ul>
+  </div>
+</div>
+</form>
+</body>
+</html>

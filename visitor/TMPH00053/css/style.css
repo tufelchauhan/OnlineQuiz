@@ -1,0 +1,198 @@
+/*-------------------------------------------------
+GLOBALS CLASSES   
+-------------------------------------------------*/
+*{margin:0; padding:0; font-family: 'Lato', sans-serif;}
+body{background:#333333;}
+p{color:#919191; font-family: 'Lato', sans-serif; font-size:13px;}
+a { text-decoration:none; color:#e5703d;}
+a:hover { text-decoration:none; color:#333333;}
+ul li { list-style:none; outline:none;}
+img { border:none; }
+img { border:none;}
+h1{font-family: 'Tienne', serif; font-size:20px; color:#e5703d; text-transform:uppercase; font-weight:normal;}
+h1 span{font-family: 'Tienne', serif; font-size:22px; color:#333333; font-weight:normal;}
+h2{font-family: 'Tienne', serif; font-size:20px; color:#333333; text-transform:uppercase; font-weight:normal;}
+a{ }
+a:hover{ }
+
+/*-------------------------------------------------
+CSS TWEAKS
+-------------------------------------------------*/
+.clearing { clear:both;}
+.fltLeft { float:left;}
+.flrRight { float:right;}
+.marLeft30 { margin-left:30px;}
+.marRight30 { margin-right:30px;}
+.marginTop { margin-top:30px;}
+.marginBottom { margin-bottom:60px;}
+.padTop { padding-top:20px;}
+.padBottom { padding-bottom:20px;}
+.wid960{ width:960px !important; }
+
+/*-------------------------------------------------
+GENERAL CLASSES
+-------------------------------------------------*/
+
+.panel { background:#ffffff;  overflow:hidden;}
+.title {}
+.content { overflow:hidden; font-size:13px;}
+.button-link{}
+.button-link a{text-decoration:none; color:#ffffff; font-family: 'Tienne', serif; font-size:11px; background:#FF6600; width:90px; height:24px; line-height:24px; text-align:center; text-transform:uppercase; display:block; font-weight:normal;}
+.button-link a:hover{text-decoration:none; background:#333333;}
+/*-------------------------------------------------
+HEADER CLASSES
+-------------------------------------------------*/
+.menu-wrapper{width:960px; margin:0 auto; margin-top:109px; background:#e5703d; overflow:hidden;}
+.menu{width:100%; float:left; margin:0 auto;}
+.menu ul li{float:left; width:95px; background:url(../images/div.png) no-repeat right;}
+.menu ul li a{width:95px; height:60px; line-height:60px; text-align:center; font-family: 'Tienne', serif; font-size:12px; color:#333333; text-transform:uppercase; display:block; text-decoration:none;}
+.menu ul li a:hover{color:#ffffff;}
+.menu ul li a.active{color:#ffffff;}
+.menu ul li.img{background:none;}
+
+.wrapper{width:100%; overflow:hidden; background:#ffffff;}
+
+.header-wrapper{width:960px; margin:0 auto; overflow:hidden; height:auto;  border-bottom:1px solid #e2e2e2; padding-bottom:20px;}
+.logo{width:504px; float:left; margin-top:52px;}
+.logo h1{font-family: 'Tienne', serif; font-size:40px; color:#333333; text-transform:uppercase; font-weight:normal;}
+.logo h1 span{color:#e5703d;font-size:40px; padding-bottom:1px;}
+.logo p{}
+
+.right-panel{float:right; width:456px; overflow:hidden; margin-top:40px;}
+.leftcontent{width:175px; float:left; border-right:1px solid #e2e2e2;}
+.leftcontent h2{float:right; font-family: 'Tienne', serif; font-size:14px; color:#e5703d; text-transform:uppercase; padding-right:27px;padding-bottom:11px; font-weight:normal;}
+.leftcontent h1{float:left; font-family:'Tienne', serif; font-size:20px; color:#333333; padding-bottom:12px; font-weight:normal;}
+.search-panel{float:left; width:250px;  overflow:hidden;}
+.search-panel h2{float:right; font-family: 'Tienne', serif; font-size:14px; color:#e5703d; text-transform:uppercase; font-weight:normal; padding-bottom:5px;}
+.search{width:250px;  }
+.search-input { float:left; width:248px; border:1px solid #e2e2e2 ; background:#ffffff; }
+.search-text-field {width:200px; border:0px solid  ; background:#ffffff; color:#919191; height:36px; line-height:36px; padding-left:10px;  }
+.search-button{float:right; margin-top:10px; margin-right:10px;}
+
+/*-------------------------------------------------
+BANNER CLASSES
+-------------------------------------------------*/
+.banner-wrapper{width:958px; margin:0 auto; background:url(../images/banner-bg.jpg) repeat-x #ffffff; border:1px solid #e5e5e5; margin-top:44px; overflow:hidden;}
+.banner{float:left; padding-top:20px; margin-left:51px;}
+.banner-content{width:260px; float:right; margin-top:154px; margin-right:30px;}
+.banner-content h1{font-family:font-family: 'Tienne', serif; font-size:30px; color:#e5703d; text-transform:uppercase; font-weight:normal;}
+.banner-content h2{color:#bbbbbb; font-family: 'Lato', sans-serif; font-size:22px; font-weight:normal; text-transform:none;}
+.banner-content p{color:#bbbbbb; font-size:12px; padding-top:20px;}
+.banner-content a{background:#333333; display:block; width:180px; height:40px; line-height:40px; margin-top:20px; color:#ffffff; font-family:font-family: 'Tienne', serif; font-size:15px; text-align:center; text-decoration:none; text-transform:uppercase; font-weight:normal;}
+.banner-content a:hover{background:#e5703d; display:block; width:180px; height:40px; line-height:40px; margin-top:20px; color:#ffffff; font-family:font-family: 'Tienne', serif; font-size:15px; text-align:center;}
+
+
+/*-------------------------------------------------
+3 PANELS CLASSS
+-------------------------------------------------*/
+.panel-wrapper { width:960px; margin:0 auto; overflow:hidden; margin-top:50px; border-bottom:1px solid #e2e2e2;}
+.panel-wrapper .panel{float:left; width:300px; margin-bottom:50px;}
+.panel-wrapper .title{padding-bottom:14px;}
+.panel-wrapper .content p{line-height:18px;}
+.panel-wrapper .button-link{ padding-top:26px;}
+.panel-wrapper .content ul li{display:block; border-bottom:1px solid #e2e2e2; height:40px; line-height:40px;}
+.panel-wrapper .bdrBottom{border-bottom:none;}
+.panel-wrapper .content ul li a{color:#919191; font-size:13px; text-decoration:none;}
+.panel-wrapper .content ul li a:hover{color:#e5703d;}
+.panel-wrapper .content ul li.borderNone { border-bottom:none;}
+.panel-wrapper .content img{width:200px; height:180px;}
+.panel-wrapper .contentbox{width:200px; height:50px; background:#e2e2e2;}
+.panel-wrapper .contentbox h1{font-size:13px; font-weight:normal; color:#333333; text-align:center; line-height:50px;}
+/*-------------------------------------------------
+MIDDLE 2 PANELS CLASSS
+-------------------------------------------------*/
+.panel-wrapper .midpanelleft{width:270px; float:left; margin-bottom:44px;}
+.panel-wrapper .midpanelright{width:660px; float:left;}
+.panel-wrapper .midpanelright .panel{width:200px; float:left;}
+
+/*-------------------------------------------------
+LAYOUT CLASSS
+-------------------------------------------------*/
+.page-wrapper { width:960px; margin:0 auto; overflow:hidden; margin-top:50px; padding-bottom:60px;}
+.primary-content { float:left; width:480px; overflow:hidden; border-right:1px solid #e2e2e2;}
+.sidebar { float:left; width:450px; overflow:hidden;}
+
+/*-------------------------------------------------
+PRIMARY CONTENT CLASSS
+-------------------------------------------------*/
+.primary-content .panel {}
+.primary-content .title { width:100%;}
+.primary-content .title h2{padding-bottom:18px;}
+.primary-content .content p{padding-bottom:18px; line-height:18px; padding-right:32px;}
+.primary-content .button-link a{font-style:normal; text-decoration:none; margin-top:8px;}
+.primary-content  a{font-style:italic; text-decoration:underline;}
+
+/*-------------------------------------------------
+SIDEBAR CLASSS
+-------------------------------------------------*/
+.sidebar .panel {padding-left:30px;}
+.sidebar .title{}
+.sidebar .title h2{padding-bottom:14px;}
+.sidebar .content {}
+.sidebar .content p{padding-bottom:20px; padding-top:20px; border-bottom:1px solid #e2e2e2;}
+.sidebar .content p span{color:#333333; font-size:11px;}
+.sidebar .content p.borderNone{border-bottom:none;}
+
+/*-------------------------------------------------
+LEFT-COLUM CLASSS
+-------------------------------------------------*/
+.left-colum{ width:300px; overflow:hidden; float:left; margin-right:60px;}
+.left-colum .content p{padding-bottom:20px; padding-top:20px; border-bottom:1px solid #e2e2e2;}
+.left-colum .content p span{color:#333333; font-size:11px;}
+.left-colum .content p.borderNone{border-bottom:none;}
+
+/*-------------------------------------------------
+RIGHT-COLUM CLASSS
+-------------------------------------------------*/
+.right-colum{ width:600px; overflow:hidden; float:right;}
+.right-colum .panel{ margin-bottom:50px; width:100%;}
+.right-colum .title{padding-bottom:14px;}
+.right-colum .content h2{padding-bottom:20px;}
+.right-colum .content h3{padding-bottom:10px; color:#e5703d;}
+.right-colum .content img{ float:left; margin-right:30px; }
+.right-colum .content p{line-height:18px; padding-bottom:20px; text-align:justify;}
+
+/*-------------------------------------------------
+PORTFOLIO CLASSS
+-------------------------------------------------*/
+
+.portfolio { overflow:hidden; width:600px; margin-top:30px;}
+.portfolio .title h2{ font-size:16px; font-weight:normal; padding-bottom:20px; border-bottom:1px solid #ebebeb; margin-bottom:30px; padding-top:10px;}
+.portfolio .panel { width:280px; border:none;  background:#f5f5f5; float:left; margin-bottom:30px;}
+.portfolio .panel .content { padding:10px; padding-bottom:20px;}
+.portfolio .panel .content p{ padding-bottom:20px;}
+.portfolio .panel .content p span{ padding-bottom:10px; border-bottom: 1px solid #dddddd;  color:#333333; display:block;}
+.portfolio .panel .content a { color:#ffffff; background:#333333; padding:8px;  text-transform:uppercase; font-family: 'Lato', sans-serif; font-size:12px;}
+.portfolio .panel .content a:hover { background:#e5703d; color:#fff;}
+.portfolio .panel .content img{ padding-bottom:10px; width:260px;}
+
+/*-------------------------------------------------
+CONATACT CLASSS
+-------------------------------------------------*/
+
+.contact-form { background:#f5f5f5; padding:30px; width:600px; float:left; margin-bottom:30px; margin-top:20px;}
+.contact-form label {display: block; padding:10px 0 10px 0;}
+.contact-form label span {display: block; color:#333333;font-size:14px; float:left; width:80px; text-align:left; padding:5px 20px 0 0;}
+.contact-form .input_text {padding:10px 10px;width:420px;background:#ffffff;border:#e2e2e2 0px solid; color:#939191;}
+.contact-form .message{padding:10px 10px;width:420px; background:#ffffff; border:#e2e2e2 0px solid;overflow:hidden;height:150px; color:#939191; font-size:14px;}
+.contact-form .button{padding:9px;background:#333333; color:#fff; text-transform:uppercase; border:0px solid;margin-left:100px;margin-top:20px;}
+
+.address { float:left; width:600px; margin-left:30px; overflow:hidden;}
+.address .panel { border:none; color:#333333; width:300px;}
+.address .panel .title h1 {  color:#333333; padding-bottom:10px;}
+.address .panel .content p{ color:#333333;}
+.address .panel .content p span { color:#333333;}
+
+/*-------------------------------------------------
+FOOTER CLASSS
+-------------------------------------------------*/
+.footer-wrapper{width:960px; margin:0 auto; background:#e5703d; overflow:hidden; margin-bottom:32px;}
+.footer{width:420px; margin:0 auto;}
+.footer ul li{float:left; width:84px; background:url(../images/div.png) no-repeat right;}
+.footer ul li a{width:84px; height:80px; line-height:80px; text-align:center; font-family: 'Tienne', serif; font-size:12px; color:#ffffff; text-transform:uppercase; display:block; text-decoration:none; font-weight:normal;}
+.footer ul li a:hover{color:#333333;}
+.footer ul li.img{background:none;}
+.bottom{width:960px; margin:0 auto;  padding-bottom:55px;}
+.bottom .content p{text-align:center; color:#e5703d;}
+.bottom .content a{color:#e5703d;}
+.bottom .content a:hover{color:#ffffff;}
